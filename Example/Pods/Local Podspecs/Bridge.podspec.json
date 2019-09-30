@@ -1,0 +1,22 @@
+{
+  "name": "Bridge",
+  "version": "0.1.0",
+  "summary": "A short description of Bridge.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pichukov/Bridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pichukov": "pichukov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pichukov/Bridge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Bridge/Classes/**/*"
+}

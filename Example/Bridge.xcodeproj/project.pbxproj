@@ -13,6 +13,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		746856F8233E4290003A4C9B /* OrangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746856F7233E4290003A4C9B /* OrangeView.swift */; };
+		746856FB233E42A8003A4C9B /* PinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746856FA233E42A8003A4C9B /* PinkView.swift */; };
+		746856FD233E4B9B003A4C9B /* InternalBridgeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746856FC233E4B9B003A4C9B /* InternalBridgeType.swift */; };
+		74806AC923421C8F00C69F90 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74806AC823421C8F00C69F90 /* GeneralView.swift */; };
+		74806ACC23422A5600C69F90 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74806ACB23422A5600C69F90 /* ColorExtensions.swift */; };
 		B63C0C9D629BA25C13A3CD7C /* Pods_Bridge_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0403B098D9ACE49BAEB56BB1 /* Pods_Bridge_Tests.framework */; };
 		E5088A1A8182839D2C75A578 /* Pods_Bridge_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193D485EBA2F1B97AFE20408 /* Pods_Bridge_Example.framework */; };
 /* End PBXBuildFile section */
@@ -42,10 +47,15 @@
 		607FACE51AFB9204008FA782 /* Bridge_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bridge_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AB01DF9CE4D81104B8D3626B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B65E7810DC69B5071B760D38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		746856F7233E4290003A4C9B /* OrangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeView.swift; sourceTree = "<group>"; };
+		746856FA233E42A8003A4C9B /* PinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkView.swift; sourceTree = "<group>"; };
+		746856FC233E4B9B003A4C9B /* InternalBridgeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalBridgeType.swift; sourceTree = "<group>"; };
+		74806AC823421C8F00C69F90 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
+		74806ACB23422A5600C69F90 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		AB01DF9CE4D81104B8D3626B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B65E7810DC69B5071B760D38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BA332B4000B3EED39D71EADB /* Pods-Bridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bridge_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bridge_Example/Pods-Bridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CC5BD37E7F63C3805BA822AD /* Bridge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Bridge.podspec; path = ../Bridge.podspec; sourceTree = "<group>"; };
+		CC5BD37E7F63C3805BA822AD /* Bridge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Bridge.podspec; path = ../Bridge.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E625C61ED516472473DD0884 /* Pods-Bridge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bridge_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bridge_Tests/Pods-Bridge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				74806ACA23422A4700C69F90 /* extensions */,
+				746856F9233E4297003A4C9B /* views */,
+				746856FC233E4B9B003A4C9B /* InternalBridgeType.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -157,6 +170,24 @@
 				AB01DF9CE4D81104B8D3626B /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		746856F9233E4297003A4C9B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				746856F7233E4290003A4C9B /* OrangeView.swift */,
+				746856FA233E42A8003A4C9B /* PinkView.swift */,
+				74806AC823421C8F00C69F90 /* GeneralView.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		74806ACA23422A4700C69F90 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74806ACB23422A5600C69F90 /* ColorExtensions.swift */,
+			);
+			name = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -322,8 +354,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74806AC923421C8F00C69F90 /* GeneralView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				746856F8233E4290003A4C9B /* OrangeView.swift in Sources */,
+				746856FB233E42A8003A4C9B /* PinkView.swift in Sources */,
+				746856FD233E4B9B003A4C9B /* InternalBridgeType.swift in Sources */,
+				74806ACC23422A5600C69F90 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
