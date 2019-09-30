@@ -22,7 +22,7 @@ pod 'Bridge'
 
 ## Author
 
-pichukov, pichukov@gmail.com
+Alexey Pichukov ,  pichukov@gmail.com
 
 ## License
 
