@@ -55,7 +55,7 @@
 		AB01DF9CE4D81104B8D3626B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B65E7810DC69B5071B760D38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BA332B4000B3EED39D71EADB /* Pods-Bridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bridge_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bridge_Example/Pods-Bridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CC5BD37E7F63C3805BA822AD /* Bridge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Bridge.podspec; path = ../Bridge.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC5BD37E7F63C3805BA822AD /* BridgeNet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BridgeNet.podspec; path = ../BridgeNet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E625C61ED516472473DD0884 /* Pods-Bridge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bridge_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bridge_Tests/Pods-Bridge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,7 +165,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CC5BD37E7F63C3805BA822AD /* Bridge.podspec */,
+				CC5BD37E7F63C3805BA822AD /* BridgeNet.podspec */,
 				B65E7810DC69B5071B760D38 /* README.md */,
 				AB01DF9CE4D81104B8D3626B /* LICENSE */,
 			);
