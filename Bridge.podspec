@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Bridge'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Bridge.'
+  s.summary          = 'Library for sending messages within the application, replacing for the NotificationCenter and Observer Observable pattern'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+The Pod is a representation of the messages delivery system within the app.
+It can replace the NotificationCenter or Observer Observable pattern.
+Using this library, you can send messages in a thread safety environment to
+any object on your app confirming Bridge protocols. It is flexible and keeping
+all your objects independent and testable.
                        DESC
 
   s.homepage         = 'https://github.com/pichukov/Bridge'
